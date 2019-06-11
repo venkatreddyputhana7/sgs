@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0;font-size: 16px;background: #efefef; min-height: 100%; position: relative; }
+mat-form-field{width:100%;}
+h3, h4{color:#666;font-weight: 300;}
+.backbg{ background: url(./assets/images/libBg.jpg) repeat; min-height: 100%; }
+*:focus {outline: 0 !important;}
+.shelfBg{background: url(./assets/images/LibShelf.JPG) repeat; background-size:cover; min-height: 100%;}
+.topBtmSpace{padding:25px 0px}
+h4{padding:10px 0; color:white;}
+.imgSize a img{width:150px;height: 220px; margin:20px;}

@@ -1,0 +1,21 @@
+<div class="container-fluid backbg">
+    <div class="row">
+    <div class="col-md-4 offset-md-4">
+        <mat-card style="margin: 25% auto;">
+                <img src="../assets/images/dattapeetham_logo.jpg" class="mx-auto d-block animated zoomIn" width="25%" style="margin-bottom:10px">
+                <mat-card-title style="padding:5px 0" class="text-center"><h3>Welcome to Nanda Library</h3></mat-card-title>
+                <mat-form-field>
+                        <input matInput placeholder="User Name">
+                </mat-form-field>
+                <mat-form-field>
+                        <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'">
+                        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                        
+                        </button>
+                        
+                      </mat-form-field><br>
+                      <button mat-flat-button color="primary" style="width:100%; background: #ff5836;"  routerLink="/shelf">Login</button>
+        </mat-card>
+    </div>
+    </div>
+</div>
